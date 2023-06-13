@@ -933,3 +933,136 @@ AssertionError: Document does not comply with schema
 2023-06-13 04:14:09,194 30408 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 04:14:09] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 18 0.004 0.017
 2023-06-13 04:14:09,415 30408 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 04:14:09] "POST /web/dataset/call_kw/algoritma.pembelian/default_get HTTP/1.1" 200 - 2 0.001 0.008
 2023-06-13 04:14:09,516 30408 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 04:14:09] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-13 05:18:45,840 27920 INFO ? odoo: Odoo version 13.0-20230607 
+2023-06-13 05:18:45,840 27920 INFO ? odoo: Using configuration file at C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo.conf 
+2023-06-13 05:18:45,840 27920 INFO ? odoo: addons paths: ['C:\\Users\\madit\\Documents\\adit\\ODOO\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\module_custom'] 
+2023-06-13 05:18:45,840 27920 INFO ? odoo: database: odoo_comunity@localhost:5432 
+2023-06-13 05:18:46,046 27920 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-06-13 05:18:46,219 27920 INFO ? odoo.service.server: HTTP service (werkzeug) running on BIT-ADIT:8069 
+2023-06-13 05:19:11,284 27920 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-13 05:19:11,362 27920 INFO database_odoo odoo.modules.loading: loading 1 modules... 
+2023-06-13 05:19:11,379 27920 INFO database_odoo odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2023-06-13 05:19:11,403 27920 INFO database_odoo odoo.modules.loading: loading 8 modules... 
+2023-06-13 05:19:11,567 27920 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-13 05:19:11,589 27920 INFO database_odoo odoo.modules.registry: module algoritma_pembelian: creating or updating database tables 
+2023-06-13 05:19:11,621 27920 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/security/ir.model.access.csv 
+2023-06-13 05:19:11,683 27920 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_view.xml 
+2023-06-13 05:19:11,748 27920 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_action.xml 
+2023-06-13 05:19:11,771 27920 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_menuitem.xml 
+2023-06-13 05:19:11,857 27920 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-13 05:19:11,902 27920 INFO database_odoo odoo.modules.loading: 8 modules loaded in 0.50s, 0 queries 
+2023-06-13 05:19:12,106 27920 INFO database_odoo odoo.modules.registry: verifying fields for every extended model 
+2023-06-13 05:19:12,118 27920 INFO database_odoo odoo.modules.loading: Modules loaded. 
+2023-06-13 05:19:12,121 27920 INFO database_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-13 05:19:12,272 27920 INFO database_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-06-13 05:19:12,273 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:12] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 361 0.232 0.743
+2023-06-13 05:19:12,300 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.006 0.004
+2023-06-13 05:19:14,468 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.002
+2023-06-13 05:19:14,468 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.004
+2023-06-13 05:19:17,570 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:17] "GET /web HTTP/1.1" 200 - 293 0.116 0.327
+2023-06-13 05:19:17,905 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:17] "GET /web/webclient/load_menus/35a3e82950856a5cfb9f5d0b6dcc395262f227ba HTTP/1.1" 200 - 1 0.001 0.002
+2023-06-13 05:19:18,000 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.007 0.013
+2023-06-13 05:19:18,158 27920 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "GET /web/static/src/xml/debug.xml?debug=1686633557911 HTTP/1.1" 200 - - - -
+2023-06-13 05:19:18,235 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.001 0.005
+2023-06-13 05:19:18,253 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 18 0.012 0.012
+2023-06-13 05:19:18,487 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "POST /web/action/load HTTP/1.1" 200 - 18 0.010 0.010
+2023-06-13 05:19:18,600 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 30 0.018 0.028
+2023-06-13 05:19:18,798 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.003
+2023-06-13 05:19:30,665 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:30] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.005
+2023-06-13 05:19:39,367 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:39] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 2 0.003 0.005
+2023-06-13 05:19:39,623 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:39] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 2 0.000 0.004
+2023-06-13 05:19:39,698 27920 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:39] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-13 05:19:43,140 27920 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:19:43] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.003
+2023-06-13 05:22:43,313 27920 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-13 05:22:43,313 27920 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-13 05:22:43,425 27920 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-06-13 05:22:45,388 22096 INFO ? odoo: Odoo version 13.0-20230607 
+2023-06-13 05:22:45,388 22096 INFO ? odoo: Using configuration file at C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo.conf 
+2023-06-13 05:22:45,388 22096 INFO ? odoo: addons paths: ['C:\\Users\\madit\\Documents\\adit\\ODOO\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\module_custom'] 
+2023-06-13 05:22:45,388 22096 INFO ? odoo: database: odoo_comunity@localhost:5432 
+2023-06-13 05:22:45,497 22096 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-06-13 05:22:45,575 22096 INFO ? odoo.service.server: HTTP service (werkzeug) running on BIT-ADIT:8069 
+2023-06-13 05:22:51,625 22096 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-13 05:22:51,665 22096 INFO database_odoo odoo.modules.loading: loading 1 modules... 
+2023-06-13 05:22:51,670 22096 INFO database_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2023-06-13 05:22:51,675 22096 INFO database_odoo odoo.modules.loading: loading 8 modules... 
+2023-06-13 05:22:51,761 22096 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-13 05:22:51,777 22096 INFO database_odoo odoo.modules.registry: module algoritma_pembelian: creating or updating database tables 
+2023-06-13 05:22:51,801 22096 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/security/ir.model.access.csv 
+2023-06-13 05:22:51,839 22096 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_view.xml 
+2023-06-13 05:22:51,868 22096 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_action.xml 
+2023-06-13 05:22:51,879 22096 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_menuitem.xml 
+2023-06-13 05:22:51,913 22096 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-13 05:22:51,926 22096 INFO database_odoo odoo.modules.loading: 8 modules loaded in 0.25s, 0 queries 
+2023-06-13 05:22:52,037 22096 INFO database_odoo odoo.modules.registry: verifying fields for every extended model 
+2023-06-13 05:22:52,047 22096 INFO database_odoo odoo.modules.loading: Modules loaded. 
+2023-06-13 05:22:52,048 22096 INFO database_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-13 05:22:52,375 22096 INFO database_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-06-13 05:22:52,377 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:52] "GET /web HTTP/1.1" 200 - 622 0.228 0.519
+2023-06-13 05:22:52,400 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:52] "GET /web/webclient/load_menus/35a3e82950856a5cfb9f5d0b6dcc395262f227ba HTTP/1.1" 200 - 1 0.000 0.003
+2023-06-13 05:22:52,828 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:52] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.007 0.006
+2023-06-13 05:22:52,832 22096 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:52] "GET /web/static/src/xml/debug.xml?debug=1686633772521 HTTP/1.1" 200 - - - -
+2023-06-13 05:22:52,844 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:52] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.001 0.004
+2023-06-13 05:22:52,845 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:52] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 18 0.009 0.005
+2023-06-13 05:22:53,102 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:53] "POST /web/action/load HTTP/1.1" 200 - 25 0.011 0.012
+2023-06-13 05:22:53,177 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:53] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 36 0.010 0.010
+2023-06-13 05:22:53,425 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:22:53] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.003 0.002
+2023-06-13 05:23:02,953 22096 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-13 05:23:02,953 22096 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-13 05:23:04,031 22096 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-06-13 05:23:28,840 22096 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:28] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 24 0.016 0.046
+2023-06-13 05:23:44,256 16360 INFO ? odoo: Odoo version 13.0-20230607 
+2023-06-13 05:23:44,256 16360 INFO ? odoo: Using configuration file at C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo.conf 
+2023-06-13 05:23:44,256 16360 INFO ? odoo: addons paths: ['C:\\Users\\madit\\Documents\\adit\\ODOO\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\module_custom'] 
+2023-06-13 05:23:44,256 16360 INFO ? odoo: database: odoo_comunity@localhost:5432 
+2023-06-13 05:23:44,385 16360 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-06-13 05:23:44,480 16360 INFO ? odoo.service.server: HTTP service (werkzeug) running on BIT-ADIT:8069 
+2023-06-13 05:23:46,600 16360 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-13 05:23:46,650 16360 INFO database_odoo odoo.modules.loading: loading 1 modules... 
+2023-06-13 05:23:46,656 16360 INFO database_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2023-06-13 05:23:46,660 16360 INFO database_odoo odoo.modules.loading: loading 8 modules... 
+2023-06-13 05:23:46,761 16360 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-13 05:23:46,780 16360 INFO database_odoo odoo.modules.registry: module algoritma_pembelian: creating or updating database tables 
+2023-06-13 05:23:46,802 16360 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/security/ir.model.access.csv 
+2023-06-13 05:23:46,851 16360 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_view.xml 
+2023-06-13 05:23:46,890 16360 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_action.xml 
+2023-06-13 05:23:46,899 16360 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_menuitem.xml 
+2023-06-13 05:23:46,941 16360 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-13 05:23:46,957 16360 INFO database_odoo odoo.modules.loading: 8 modules loaded in 0.30s, 0 queries 
+2023-06-13 05:23:47,080 16360 INFO database_odoo odoo.modules.registry: verifying fields for every extended model 
+2023-06-13 05:23:47,089 16360 INFO database_odoo odoo.modules.loading: Modules loaded. 
+2023-06-13 05:23:47,089 16360 INFO database_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-13 05:23:47,139 16360 INFO database_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-06-13 05:23:47,140 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:47] "POST /web/webclient/version_info HTTP/1.1" 200 - 329 0.142 0.395
+2023-06-13 05:23:51,121 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:51] "POST /web/dataset/call_kw/algoritma.pembelian/default_get HTTP/1.1" 200 - 3 0.007 0.002
+2023-06-13 05:23:51,461 16360 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:51] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-13 05:23:57,480 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:57] "GET /web HTTP/1.1" 200 - 294 0.124 0.370
+2023-06-13 05:23:57,839 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:57] "GET /web/webclient/load_menus/35a3e82950856a5cfb9f5d0b6dcc395262f227ba HTTP/1.1" 200 - 1 0.000 0.004
+2023-06-13 05:23:58,087 16360 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "GET /web/static/src/xml/debug.xml?debug=1686633837853 HTTP/1.1" 200 - - - -
+2023-06-13 05:23:58,101 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.008 0.007
+2023-06-13 05:23:58,168 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.002 0.003
+2023-06-13 05:23:58,185 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 18 0.010 0.010
+2023-06-13 05:23:58,214 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "POST /web/action/load HTTP/1.1" 200 - 25 0.021 0.014
+2023-06-13 05:23:58,455 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 36 0.026 0.016
+2023-06-13 05:23:58,527 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "POST /web/dataset/call_kw/algoritma.pembelian/default_get HTTP/1.1" 200 - 2 0.001 0.004
+2023-06-13 05:23:58,771 16360 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:23:58] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-13 05:24:02,584 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:02] "GET /web HTTP/1.1" 200 - 16 0.008 0.039
+2023-06-13 05:24:02,914 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:02] "GET /web/webclient/load_menus/35a3e82950856a5cfb9f5d0b6dcc395262f227ba HTTP/1.1" 200 - 1 0.001 0.001
+2023-06-13 05:24:03,151 16360 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "GET /web/static/src/xml/debug.xml?debug=1686633842921 HTTP/1.1" 200 - - - -
+2023-06-13 05:24:03,233 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 1 0.001 0.002
+2023-06-13 05:24:03,238 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 6 0.001 0.006
+2023-06-13 05:24:03,484 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "POST /web/action/load HTTP/1.1" 200 - 13 0.011 0.010
+2023-06-13 05:24:03,569 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 25 0.003 0.013
+2023-06-13 05:24:03,816 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "POST /web/dataset/call_kw/algoritma.pembelian/default_get HTTP/1.1" 200 - 2 0.001 0.003
+2023-06-13 05:24:03,883 16360 INFO ? werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:03] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-13 05:24:04,171 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:04] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 5 0.002 0.004
+2023-06-13 05:24:11,090 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:11] "POST /web/dataset/call_kw/algoritma.pembelian/create HTTP/1.1" 200 - 6 0.003 0.003
+2023-06-13 05:24:11,406 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:11] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 5 0.000 0.005
+2023-06-13 05:24:18,095 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:18] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 24 0.007 0.009
+2023-06-13 05:24:18,421 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.002
+2023-06-13 05:24:20,745 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.001
+2023-06-13 05:24:29,049 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:29] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 2 0.002 0.000
+2023-06-13 05:24:43,829 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:43] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 2 0.000 0.003
+2023-06-13 05:24:44,833 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:24:44] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 2 0.003 0.003
+2023-06-13 05:25:09,986 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:25:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.004
+2023-06-13 05:25:10,302 16360 INFO database_odoo werkzeug: 127.0.0.1 - - [13/Jun/2023 05:25:10] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.002
