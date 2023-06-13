@@ -8,7 +8,7 @@
     """,
     'website': '',
     'author': 'Adit',
-    'depends': ['web','base'],
+    'depends': ['web','base','product'],
     'data': [
         'security/ir.model.access.csv',
         'views/algoritma_pembelian_view.xml',
