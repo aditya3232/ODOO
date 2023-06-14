@@ -1,4 +1,4 @@
-from odoo import models, fields, _
+from odoo import models, fields, api, _
 
 class algoritma_pembelian(models.Model):
     _name = 'algoritma.pembelian'
@@ -12,8 +12,17 @@ class algoritma_pembelian(models.Model):
 class algoritma_pembelian_line(models.Model):
     _name = 'algoritma.pembelian.line'
 
+    @api.onchange('product_id')
+    def func_onchange_product_id(self):
+        if not self.product_id:
+            return ()
+        else:
+            self.description = self.product_id.name
+        return {}
+
     algoritma_pembelian_id = fields.Many2one('algoritma.pembelian', string="Algoritma Pembelian Id")
     product_id = fields.Many2one('product.product', string="Product Id")
+    description = fields.Char(string="Description")
     quantity = fields.Float(string="Quantity", default=0.0)
     uom_id = fields.Many2one('uom.uom', string="Uom Id")
 

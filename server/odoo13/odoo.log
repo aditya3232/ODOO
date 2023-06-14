@@ -15886,3 +15886,332 @@ psycopg2.InterfaceError: connection already closed
 2023-06-14 03:39:44,971 30680 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 03:39:44] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.017
 2023-06-14 03:40:28,153 30680 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
 2023-06-14 03:40:34,993 30680 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 03:40:34] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.008 50.008
+2023-06-14 04:00:54,843 10916 INFO ? odoo: Odoo version 13.0-20230607 
+2023-06-14 04:00:54,843 10916 INFO ? odoo: Using configuration file at C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo.conf 
+2023-06-14 04:00:54,844 10916 INFO ? odoo: addons paths: ['C:\\Users\\madit\\Documents\\adit\\ODOO\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\module_custom'] 
+2023-06-14 04:00:54,844 10916 INFO ? odoo: database: odoo_comunity@localhost:5432 
+2023-06-14 04:00:55,108 10916 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-06-14 04:00:55,240 10916 INFO ? odoo.service.server: HTTP service (werkzeug) running on BIT-ADIT:8069 
+2023-06-14 04:01:02,214 10916 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-14 04:01:02,311 10916 INFO database_odoo odoo.modules.loading: loading 1 modules... 
+2023-06-14 04:01:02,325 10916 INFO database_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2023-06-14 04:01:02,361 10916 INFO database_odoo odoo.modules.loading: loading 21 modules... 
+2023-06-14 04:01:02,688 10916 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-14 04:01:02,689 10916 WARNING database_odoo odoo.models: The model algoritma.pembelian.line has no _description 
+2023-06-14 04:01:02,689 10916 WARNING database_odoo odoo.models: The model algoritma.brand has no _description 
+2023-06-14 04:01:02,713 10916 INFO database_odoo odoo.modules.loading: 21 modules loaded in 0.35s, 0 queries 
+2023-06-14 04:01:02,961 10916 INFO database_odoo odoo.modules.loading: Modules loaded. 
+2023-06-14 04:01:02,968 10916 INFO database_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-14 04:01:03,082 10916 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-14 04:01:45,940 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:45] "GET /web HTTP/1.1" 200 - 347 0.163 0.596
+2023-06-14 04:01:46,362 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/content/575-592eabe/web.assets_backend.css HTTP/1.1" 200 - 4 0.003 0.083
+2023-06-14 04:01:46,369 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/webclient/load_menus/459ec0e5eab6b18fe13038354772925714618d7a HTTP/1.1" 200 - 1 0.001 0.088
+2023-06-14 04:01:46,373 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/content/574-46c4d15/web.assets_common.css HTTP/1.1" 200 - 4 0.002 0.095
+2023-06-14 04:01:46,504 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/content/577-592eabe/web.assets_backend.js HTTP/1.1" 200 - 4 0.005 0.222
+2023-06-14 04:01:46,505 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/content/576-46c4d15/web.assets_common.js HTTP/1.1" 200 - 4 0.000 0.226
+2023-06-14 04:01:46,599 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/webclient/qweb/fb5a017dc698223a90657a156f40d74b2afc6829?mods=base,web,base_setup,bus,web_tour,mail,auth_signup,base_import,iap,partner_autocomplete,product,sms,snailmail,web_diagram,web_editor,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.002 0.024
+2023-06-14 04:01:46,940 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:46] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cauth_signup%2Cbase_import%2Ciap%2Cpartner_autocomplete%2Cproduct%2Csms%2Csnailmail%2Cweb_diagram%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.006 0.004
+2023-06-14 04:01:47,253 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "GET /web/static/src/xml/debug.xml?debug=1686715306952 HTTP/1.1" 200 - - - -
+2023-06-14 04:01:47,272 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.008 0.008
+2023-06-14 04:01:47,278 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "POST /mail/init_messaging HTTP/1.1" 200 - 59 0.058 0.035
+2023-06-14 04:01:47,280 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.005 0.005
+2023-06-14 04:01:47,313 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 16 0.026 0.016
+2023-06-14 04:01:47,633 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "POST /web/action/load HTTP/1.1" 200 - 26 0.028 0.010
+2023-06-14 04:01:47,690 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:47] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 48 0.019 0.025
+2023-06-14 04:01:48,032 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:48] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 12 0.011 0.007
+2023-06-14 04:01:48,349 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:48] "POST /web/dataset/call_kw/algoritma.brand/read HTTP/1.1" 200 - 4 0.003 0.005
+2023-06-14 04:01:48,387 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:48] "POST /web/dataset/call_kw/algoritma.pembelian.line/read HTTP/1.1" 200 - 12 0.036 0.010
+2023-06-14 04:01:48,420 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:48] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.004 0.015
+2023-06-14 04:01:48,713 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:48] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-14 04:01:51,538 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:51] "POST /web/action/load HTTP/1.1" 200 - 34 0.022 0.021
+2023-06-14 04:01:51,943 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:51] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 85 0.057 0.038
+2023-06-14 04:01:52,285 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.012 0.003
+2023-06-14 04:01:52,657 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:52] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-06-14 04:01:53,091 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:53] "POST /longpolling/poll HTTP/1.1" 200 - 33 0.084 50.782
+2023-06-14 04:01:54,915 10916 INFO database_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Inventory'] to user admin #2 via 127.0.0.1 
+2023-06-14 04:01:54,915 10916 INFO database_odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-06-14 04:01:54,926 10916 INFO database_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Inventory'] to user admin #2 via 127.0.0.1 
+2023-06-14 04:01:55,018 10916 INFO database_odoo odoo.modules.loading: loading 1 modules... 
+2023-06-14 04:01:55,024 10916 INFO database_odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2023-06-14 04:01:55,093 10916 INFO database_odoo odoo.modules.loading: updating modules list 
+2023-06-14 04:01:55,095 10916 INFO database_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-06-14 04:01:55,671 10916 INFO database_odoo odoo.modules.loading: loading 21 modules... 
+2023-06-14 04:01:55,708 10916 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-14 04:01:55,708 10916 WARNING database_odoo odoo.models: The model algoritma.pembelian.line has no _description 
+2023-06-14 04:01:55,708 10916 WARNING database_odoo odoo.models: The model algoritma.brand has no _description 
+2023-06-14 04:01:55,710 10916 INFO database_odoo odoo.modules.loading: 21 modules loaded in 0.04s, 0 queries 
+2023-06-14 04:01:55,713 10916 INFO database_odoo odoo.modules.loading: loading 24 modules... 
+2023-06-14 04:01:55,834 10916 INFO database_odoo odoo.modules.registry: module barcodes: creating or updating database tables 
+2023-06-14 04:01:56,039 10916 INFO database_odoo odoo.modules.loading: loading barcodes/data/barcodes_data.xml 
+2023-06-14 04:01:56,056 10916 INFO database_odoo odoo.modules.loading: loading barcodes/views/barcodes_view.xml 
+2023-06-14 04:01:56,123 10916 INFO database_odoo odoo.modules.loading: loading barcodes/security/ir.model.access.csv 
+2023-06-14 04:01:56,147 10916 INFO database_odoo odoo.modules.loading: loading barcodes/views/barcodes_templates.xml 
+2023-06-14 04:01:56,209 10916 INFO database_odoo odoo.modules.loading: Module barcodes: loading demo 
+2023-06-14 04:01:56,497 10916 INFO database_odoo odoo.modules.registry: module stock: creating or updating database tables 
+2023-06-14 04:01:56,747 10916 INFO database_odoo odoo.models: Computing parent_path for table stock_location... 
+2023-06-14 04:01:57,924 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:01:57] "GET /web/static/src/img/spin.png HTTP/1.1" 200 - - - -
+2023-06-14 04:01:58,374 10916 INFO database_odoo odoo.modules.loading: loading stock/security/stock_security.xml 
+2023-06-14 04:01:58,939 10916 INFO database_odoo odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2023-06-14 04:01:59,105 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2023-06-14 04:01:59,163 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2023-06-14 04:01:59,166 10916 INFO database_odoo odoo.modules.loading: loading stock/data/procurement_data.xml 
+2023-06-14 04:01:59,170 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2023-06-14 04:01:59,193 10916 INFO database_odoo odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2023-06-14 04:01:59,224 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2023-06-14 04:01:59,242 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2023-06-14 04:01:59,249 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2023-06-14 04:01:59,265 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2023-06-14 04:01:59,280 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2023-06-14 04:01:59,293 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2023-06-14 04:01:59,301 10916 INFO database_odoo odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2023-06-14 04:01:59,349 10916 INFO database_odoo odoo.modules.loading: loading stock/report/package_templates.xml 
+2023-06-14 04:01:59,361 10916 INFO database_odoo odoo.modules.loading: loading stock/report/picking_templates.xml 
+2023-06-14 04:01:59,390 10916 INFO database_odoo odoo.modules.loading: loading stock/report/product_templates.xml 
+2023-06-14 04:01:59,425 10916 INFO database_odoo odoo.modules.loading: loading stock/report/product_packaging.xml 
+2023-06-14 04:01:59,435 10916 INFO database_odoo odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2023-06-14 04:01:59,441 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_assign_serial_views.xml 
+2023-06-14 04:01:59,453 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2023-06-14 04:01:59,466 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2023-06-14 04:01:59,482 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml 
+2023-06-14 04:01:59,496 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml 
+2023-06-14 04:01:59,510 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2023-06-14 04:01:59,522 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_overprocessed_transfer_views.xml 
+2023-06-14 04:01:59,535 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2023-06-14 04:01:59,547 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2023-06-14 04:01:59,566 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2023-06-14 04:01:59,598 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2023-06-14 04:01:59,613 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2023-06-14 04:01:59,623 10916 INFO database_odoo odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2023-06-14 04:01:59,637 10916 INFO database_odoo odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2023-06-14 04:01:59,746 10916 INFO database_odoo odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2023-06-14 04:01:59,792 10916 INFO database_odoo odoo.modules.loading: loading stock/views/product_views.xml 
+2023-06-14 04:02:00,130 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_production_lot_views.xml 
+2023-06-14 04:02:00,182 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2023-06-14 04:02:00,386 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2023-06-14 04:02:00,484 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_inventory_views.xml 
+2023-06-14 04:02:00,612 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2023-06-14 04:02:00,778 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2023-06-14 04:02:00,910 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2023-06-14 04:02:01,026 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2023-06-14 04:02:01,082 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2023-06-14 04:02:01,390 10916 INFO database_odoo odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2023-06-14 04:02:01,470 10916 INFO database_odoo odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2023-06-14 04:02:01,514 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_template.xml 
+2023-06-14 04:02:01,584 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2023-06-14 04:02:01,646 10916 INFO database_odoo odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2023-06-14 04:02:01,675 10916 INFO database_odoo odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2023-06-14 04:02:01,685 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_data.xml 
+2023-06-14 04:02:01,861 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2023-06-14 04:02:01,875 10916 INFO database_odoo odoo.modules.loading: Module stock: loading demo 
+2023-06-14 04:02:01,875 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_demo_pre.xml 
+2023-06-14 04:02:01,882 10916 INFO database_odoo odoo.modules.loading: loading stock/data/procurement_demo.xml 
+2023-06-14 04:02:02,282 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_demo.xml 
+2023-06-14 04:02:02,689 10916 INFO database_odoo odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module. 
+2023-06-14 04:02:03,141 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_orderpoint_demo.xml 
+2023-06-14 04:02:03,164 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_demo2.xml 
+2023-06-14 04:02:03,955 10916 INFO database_odoo odoo.models.unlink: User #1 deleted stock.move.line records with IDs: [25] 
+2023-06-14 04:02:04,177 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_location_demo_cpu1.xml 
+2023-06-14 04:02:04,190 10916 INFO database_odoo odoo.modules.loading: loading stock/data/stock_location_demo_cpu3.xml 
+2023-06-14 04:02:04,473 10916 INFO database_odoo odoo.modules.registry: module stock_sms: creating or updating database tables 
+2023-06-14 04:02:04,669 10916 INFO database_odoo odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2023-06-14 04:02:04,679 10916 INFO database_odoo odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2023-06-14 04:02:04,784 10916 INFO database_odoo odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2023-06-14 04:02:04,804 10916 INFO database_odoo odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2023-06-14 04:02:04,816 10916 INFO database_odoo odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2023-06-14 04:02:04,828 10916 INFO database_odoo odoo.modules.loading: Module stock_sms: loading demo 
+2023-06-14 04:02:04,856 10916 INFO database_odoo odoo.modules.loading: 24 modules loaded in 9.14s, 0 queries 
+2023-06-14 04:02:05,107 10916 INFO database_odoo odoo.modules.loading: Modules loaded. 
+2023-06-14 04:02:05,113 10916 INFO database_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-14 04:02:05,116 10916 INFO database_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-14 04:02:05,117 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:05] "POST /web/dataset/call_button HTTP/1.1" 200 - 15017 4.830 5.381
+2023-06-14 04:02:05,461 10916 INFO database_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-14 04:02:09,343 10916 INFO database_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-06-14 04:02:09,345 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:09] "GET /web HTTP/1.1" 200 - 552 0.257 3.627
+2023-06-14 04:02:09,699 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:09] "GET /web/content/600-5de3bc5/web.assets_common.js HTTP/1.1" 200 - 4 0.004 0.021
+2023-06-14 04:02:09,707 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:09] "GET /web/content/598-5de3bc5/web.assets_common.css HTTP/1.1" 200 - 6 0.001 0.032
+2023-06-14 04:02:09,710 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:09] "GET /web/content/599-4968a01/web.assets_backend.css HTTP/1.1" 200 - 4 0.003 0.031
+2023-06-14 04:02:09,852 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:09] "GET /web/webclient/load_menus/95854cdd96c8e562308d6f82a21cd6753c492dfb HTTP/1.1" 200 - 193 0.084 0.092
+2023-06-14 04:02:10,054 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "GET /web/content/601-4968a01/web.assets_backend.js HTTP/1.1" 200 - 4 0.003 0.126
+2023-06-14 04:02:10,176 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "GET /web/webclient/qweb/49e337efc5c94ee0204f96ff660443fda7d5d76c?mods=base,web,base_setup,bus,web_tour,mail,product,barcodes,stock,auth_signup,base_import,iap,partner_autocomplete,sms,snailmail,web_diagram,web_editor,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.001 0.021
+2023-06-14 04:02:10,544 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cproduct%2Cbarcodes%2Cstock%2Cauth_signup%2Cbase_import%2Ciap%2Cpartner_autocomplete%2Csms%2Csnailmail%2Cweb_diagram%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.003 0.002
+2023-06-14 04:02:10,865 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "POST /mail/init_messaging HTTP/1.1" 200 - 61 0.046 0.026
+2023-06-14 04:02:10,865 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "GET /web/static/src/xml/debug.xml?debug=1686715330566 HTTP/1.1" 200 - - - -
+2023-06-14 04:02:10,875 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.003 0.001
+2023-06-14 04:02:10,900 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:10] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.001 0.004
+2023-06-14 04:02:11,178 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:11] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.000 0.003
+2023-06-14 04:02:11,207 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:11] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 200 - 16 0.005 0.015
+2023-06-14 04:02:11,228 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:11] "POST /web/action/load HTTP/1.1" 200 - 14 0.010 0.006
+2023-06-14 04:02:11,528 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:11] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 26 0.014 0.019
+2023-06-14 04:02:11,558 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:11] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 - 11 0.006 0.009
+2023-06-14 04:02:11,856 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:11] "POST /web/dataset/call_kw/mail.message/message_fetch HTTP/1.1" 200 - 8 0.010 0.005
+2023-06-14 04:02:37,578 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:02:37] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.006 50.008
+2023-06-14 04:02:55,234 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-06-14 04:02:55,265 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-06-14 04:02:55,267 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-06-14 04:02:55,281 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-06-14 04:02:55,282 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-06-14 04:02:55,289 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-06-14 04:02:55,289 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-06-14 04:02:55,307 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-06-14 04:02:55,307 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2023-06-14 04:02:55,690 10916 INFO database_odoo odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2023-06-14 04:03:00,932 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:03:00] "POST /longpolling/poll HTTP/1.1" 200 - 18 0.013 50.023
+2023-06-14 04:03:50,968 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:03:50] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.010 50.015
+2023-06-14 04:04:41,311 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:04:41] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.010 50.023
+2023-06-14 04:05:31,340 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:05:31] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.019
+2023-06-14 04:06:21,671 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:06:21] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.018
+2023-06-14 04:07:11,702 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:07:11] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.007 50.018
+2023-06-14 04:08:02,035 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:08:02] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.001 50.023
+2023-06-14 04:08:52,061 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:08:52] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.017
+2023-06-14 04:09:42,392 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:09:42] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.016
+2023-06-14 04:10:30,653 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:30] "POST /web/action/load HTTP/1.1" 200 - 32 0.014 0.013
+2023-06-14 04:10:31,017 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:31] "POST /web/dataset/call_kw/stock.picking.type/load_views HTTP/1.1" 200 - 65 0.026 0.023
+2023-06-14 04:10:31,365 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:31] "POST /web/dataset/search_read HTTP/1.1" 200 - 20 0.014 0.011
+2023-06-14 04:10:32,413 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:32] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.002 50.014
+2023-06-14 04:10:35,106 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:35] "POST /web/action/load HTTP/1.1" 200 - 57 0.015 0.019
+2023-06-14 04:10:35,522 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:35] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 - 125 0.039 0.062
+2023-06-14 04:10:35,948 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 121 0.054 0.052
+2023-06-14 04:10:36,326 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=8&unique= HTTP/1.1" 200 - 11 0.013 0.018
+2023-06-14 04:10:36,328 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=24&unique= HTTP/1.1" 200 - 11 0.015 0.021
+2023-06-14 04:10:36,329 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=19&unique= HTTP/1.1" 200 - 11 0.016 0.018
+2023-06-14 04:10:36,330 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=12&unique= HTTP/1.1" 200 - 11 0.014 0.024
+2023-06-14 04:10:36,330 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=13&unique= HTTP/1.1" 200 - 11 0.015 0.023
+2023-06-14 04:10:36,654 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=7&unique= HTTP/1.1" 200 - 5 0.004 0.017
+2023-06-14 04:10:36,655 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=20&unique= HTTP/1.1" 200 - 5 0.003 0.020
+2023-06-14 04:10:36,656 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=5&unique= HTTP/1.1" 200 - 5 0.005 0.020
+2023-06-14 04:10:36,663 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=14&unique= HTTP/1.1" 200 - 5 0.006 0.010
+2023-06-14 04:10:36,665 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=26&unique= HTTP/1.1" 200 - 5 0.007 0.010
+2023-06-14 04:10:36,970 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=25&unique= HTTP/1.1" 200 - 5 0.002 0.010
+2023-06-14 04:10:36,989 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=27&unique= HTTP/1.1" 200 - 5 0.004 0.012
+2023-06-14 04:10:36,989 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=9&unique= HTTP/1.1" 200 - 5 0.004 0.011
+2023-06-14 04:10:36,991 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=21&unique= HTTP/1.1" 200 - 5 0.003 0.014
+2023-06-14 04:10:36,991 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:36] "GET /web/image?model=product.template&field=image_128&id=22&unique= HTTP/1.1" 200 - 5 0.003 0.013
+2023-06-14 04:10:37,300 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=10&unique= HTTP/1.1" 200 - 5 0.004 0.011
+2023-06-14 04:10:37,316 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=11&unique= HTTP/1.1" 200 - 5 0.006 0.012
+2023-06-14 04:10:37,317 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=6&unique= HTTP/1.1" 200 - 5 0.006 0.011
+2023-06-14 04:10:37,319 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=17&unique= HTTP/1.1" 200 - 5 0.003 0.016
+2023-06-14 04:10:37,319 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=23&unique= HTTP/1.1" 200 - 5 0.002 0.015
+2023-06-14 04:10:37,627 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=15&unique= HTTP/1.1" 200 - 5 0.004 0.014
+2023-06-14 04:10:37,641 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=16&unique= HTTP/1.1" 200 - 5 0.005 0.011
+2023-06-14 04:10:37,641 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=28&unique= HTTP/1.1" 200 - 5 0.004 0.012
+2023-06-14 04:10:37,641 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:37] "GET /web/image?model=product.template&field=image_128&id=18&unique= HTTP/1.1" 200 - 5 0.003 0.012
+2023-06-14 04:10:56,412 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:56] "POST /web/dataset/call_kw/product.packaging/load_views HTTP/1.1" 200 - 23 0.016 0.007
+2023-06-14 04:10:56,864 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:56] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 83 0.058 0.077
+2023-06-14 04:10:57,187 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "POST /web/dataset/call_kw/stock.location.route/name_search HTTP/1.1" 200 - 4 0.005 0.002
+2023-06-14 04:10:57,508 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "GET /web/static/src/xml/ribbon.xml?debug=1686715857198 HTTP/1.1" 200 - - - -
+2023-06-14 04:10:57,547 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "POST /mail/read_followers HTTP/1.1" 200 - 5 0.005 0.009
+2023-06-14 04:10:57,551 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "GET /web/image?model=product.template&id=23&field=image_128&unique=06142023110156 HTTP/1.1" 200 - 5 0.008 0.006
+2023-06-14 04:10:57,559 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 17 0.013 0.012
+2023-06-14 04:10:57,851 10916 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-14 04:10:57,884 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:57] "GET /web/image/res.partner/2/image_128 HTTP/1.1" 200 - 5 0.001 0.018
+2023-06-14 04:10:58,406 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:10:58] "POST /longpolling/im_status HTTP/1.1" 200 - 2 0.005 0.004
+2023-06-14 04:11:22,740 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:11:22] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.001 50.015
+2023-06-14 04:12:13,067 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:12:13] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.002 50.019
+2023-06-14 04:13:03,082 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:13:03] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.007
+2023-06-14 04:13:53,408 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:13:53] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.013
+2023-06-14 04:14:43,425 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:14:43] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.002 50.009
+2023-06-14 04:15:33,754 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:15:33] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.016
+2023-06-14 04:16:23,771 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:16:23] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.006
+2023-06-14 04:17:14,109 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:17:14] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.001 50.019
+2023-06-14 04:18:04,134 10916 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:18:04] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.002 50.017
+2023-06-14 04:18:13,376 10916 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-14 04:18:13,376 10916 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-14 04:18:14,485 10916 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\addons\bus\models\bus.py", line 162, in loop
+    conn.poll()
+psycopg2.InterfaceError: connection already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\addons\bus\models\bus.py", line 176, in run
+    self.loop()
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\addons\bus\models\bus.py", line 171, in loop
+    event.set()
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\sql_db.py", line 436, in __exit__
+    self.close()
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\sql_db.py", line 173, in wrapper
+    return f(self, *args, **kwargs)
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\sql_db.py", line 311, in close
+    return self._close(False)
+  File "C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo\sql_db.py", line 341, in _close
+    self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2023-06-14 04:18:14,486 10916 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2023-06-14 04:18:57,088 19024 INFO ? odoo: Odoo version 13.0-20230607 
+2023-06-14 04:18:57,088 19024 INFO ? odoo: Using configuration file at C:\Users\madit\Documents\adit\ODOO\server\odoo13\odoo.conf 
+2023-06-14 04:18:57,088 19024 INFO ? odoo: addons paths: ['C:\\Users\\madit\\Documents\\adit\\ODOO\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\appdata\\local\\openerp s.a\\odoo\\addons\\13.0', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo', 'c:\\users\\madit\\documents\\adit\\odoo\\server\\odoo13\\odoo\\addons', 'c:\\users\\madit\\documents\\adit\\odoo\\module_custom'] 
+2023-06-14 04:18:57,088 19024 INFO ? odoo: database: odoo_comunity@localhost:5432 
+2023-06-14 04:18:57,206 19024 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-06-14 04:18:57,293 19024 INFO ? odoo.service.server: HTTP service (werkzeug) running on BIT-ADIT:8069 
+2023-06-14 04:19:01,954 19024 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-14 04:19:02,000 19024 INFO database_odoo odoo.modules.loading: loading 1 modules... 
+2023-06-14 04:19:02,005 19024 INFO database_odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries 
+2023-06-14 04:19:02,020 19024 INFO database_odoo odoo.modules.loading: loading 24 modules... 
+2023-06-14 04:19:02,317 19024 WARNING database_odoo odoo.models: The model algoritma.pembelian has no _description 
+2023-06-14 04:19:02,317 19024 WARNING database_odoo odoo.models: The model algoritma.pembelian.line has no _description 
+2023-06-14 04:19:02,317 19024 WARNING database_odoo odoo.models: The model algoritma.brand has no _description 
+2023-06-14 04:19:02,357 19024 INFO database_odoo odoo.modules.registry: module algoritma_pembelian: creating or updating database tables 
+2023-06-14 04:19:02,426 19024 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/security/ir.model.access.csv 
+2023-06-14 04:19:02,474 19024 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_view.xml 
+2023-06-14 04:19:02,509 19024 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_action.xml 
+2023-06-14 04:19:02,529 19024 INFO database_odoo odoo.modules.loading: loading algoritma_pembelian/views/algoritma_pembelian_menuitem.xml 
+2023-06-14 04:19:02,598 19024 INFO database_odoo odoo.modules.loading: 24 modules loaded in 0.58s, 0 queries 
+2023-06-14 04:19:02,800 19024 INFO database_odoo odoo.modules.loading: Modules loaded. 
+2023-06-14 04:19:02,800 19024 INFO database_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-14 04:19:02,864 19024 INFO database_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-06-14 04:19:02,864 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:02] "POST /longpolling/im_status HTTP/1.1" 200 - 532 0.232 0.672
+2023-06-14 04:19:03,629 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:03] "GET /web HTTP/1.1" 200 - 398 0.120 0.294
+2023-06-14 04:19:04,040 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/content/599-4968a01/web.assets_backend.css HTTP/1.1" 200 - 4 0.003 0.080
+2023-06-14 04:19:04,040 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/content/600-5de3bc5/web.assets_common.js HTTP/1.1" 304 - 4 0.003 0.079
+2023-06-14 04:19:04,043 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/webclient/load_menus/95854cdd96c8e562308d6f82a21cd6753c492dfb HTTP/1.1" 200 - 1 0.001 0.082
+2023-06-14 04:19:04,047 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/content/598-5de3bc5/web.assets_common.css HTTP/1.1" 200 - 4 0.004 0.087
+2023-06-14 04:19:04,052 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/content/601-4968a01/web.assets_backend.js HTTP/1.1" 304 - 4 0.005 0.088
+2023-06-14 04:19:04,215 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/webclient/qweb/49e337efc5c94ee0204f96ff660443fda7d5d76c?mods=base,web,base_setup,bus,web_tour,mail,product,barcodes,stock,auth_signup,base_import,iap,partner_autocomplete,sms,snailmail,web_diagram,web_editor,web_kanban_gauge,web_unsplash HTTP/1.1" 200 - 1 0.002 0.011
+2023-06-14 04:19:04,434 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/webclient/translations/5227498d9df4b403b0244c75aac21e0c091e50ce?mods=base%2Cweb%2Cbase_setup%2Cbus%2Cweb_tour%2Cmail%2Cproduct%2Cbarcodes%2Cstock%2Cauth_signup%2Cbase_import%2Ciap%2Cpartner_autocomplete%2Csms%2Csnailmail%2Cweb_diagram%2Cweb_editor%2Cweb_kanban_gauge%2Cweb_unsplash&lang=en_US HTTP/1.1" 200 - 3 0.005 0.003
+2023-06-14 04:19:04,604 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "POST /mail/init_messaging HTTP/1.1" 200 - 59 0.056 0.015
+2023-06-14 04:19:04,751 19024 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "GET /web/static/src/xml/debug.xml?debug=1686716344448 HTTP/1.1" 200 - - - -
+2023-06-14 04:19:04,761 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.003 0.006
+2023-06-14 04:19:04,768 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "POST /web/dataset/call_kw/ir.ui.view/check_access_rights HTTP/1.1" 200 - 2 0.008 0.002
+2023-06-14 04:19:04,778 19024 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-14 04:19:04,972 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:04] "POST /web/action/load HTTP/1.1" 200 - 67 0.031 0.021
+2023-06-14 04:19:05,087 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:05] "GET /web/image?model=res.users&field=image_128&id=2 HTTP/1.1" 304 - 13 0.006 0.007
+2023-06-14 04:19:05,162 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:05] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 - 138 0.052 0.049
+2023-06-14 04:19:05,329 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:05] "POST /web/dataset/call_kw/product.packaging/load_views HTTP/1.1" 200 - 23 0.019 0.017
+2023-06-14 04:19:05,647 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:05] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 112 0.098 0.053
+2023-06-14 04:19:05,662 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:05] "POST /web/dataset/call_kw/stock.location.route/name_search HTTP/1.1" 200 - 4 0.003 0.006
+2023-06-14 04:19:05,974 19024 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:05] "GET /web/static/src/xml/ribbon.xml?debug=1686716345669 HTTP/1.1" 200 - - - -
+2023-06-14 04:19:06,021 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "POST /mail/read_followers HTTP/1.1" 200 - 10 0.016 0.013
+2023-06-14 04:19:06,030 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "GET /web/image?model=product.template&id=23&field=image_128&unique=06142023110156 HTTP/1.1" 200 - 11 0.025 0.009
+2023-06-14 04:19:06,032 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "POST /web/dataset/call_kw/mail.message/message_format HTTP/1.1" 200 - 21 0.019 0.021
+2023-06-14 04:19:06,302 19024 INFO ? werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "GET /web/static/src/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-14 04:19:06,356 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "GET /web/image/res.partner/2/image_128 HTTP/1.1" 200 - 5 0.001 0.022
+2023-06-14 04:19:06,685 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "GET /web/image/res.company/1/favicon/ HTTP/1.1" 200 - 12 0.004 0.007
+2023-06-14 04:19:06,871 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:06] "POST /longpolling/im_status HTTP/1.1" 200 - 2 0.006 0.003
+2023-06-14 04:19:12,465 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:12] "POST /web/action/load HTTP/1.1" 200 - 21 0.004 0.011
+2023-06-14 04:19:12,804 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:12] "POST /web/dataset/call_kw/algoritma.pembelian/load_views HTTP/1.1" 200 - 38 0.012 0.014
+2023-06-14 04:19:13,127 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 6 0.004 0.003
+2023-06-14 04:19:54,781 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:19:54] "POST /longpolling/poll HTTP/1.1" 200 - 18 0.010 50.014
+2023-06-14 04:20:45,106 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:20:45] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.004 50.012
+2023-06-14 04:21:35,129 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:21:35] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.011 50.008
+2023-06-14 04:22:03,190 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:03] "POST /web/dataset/call_kw/algoritma.pembelian/default_get HTTP/1.1" 200 - 3 0.004 0.003
+2023-06-14 04:22:03,517 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:03] "POST /web/dataset/call_kw/algoritma.pembelian/onchange HTTP/1.1" 200 - 1 0.001 0.002
+2023-06-14 04:22:05,474 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:05] "POST /longpolling/im_status HTTP/1.1" 200 - 2 0.000 0.004
+2023-06-14 04:22:12,666 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:12] "POST /web/dataset/call_kw/algoritma.brand/name_search HTTP/1.1" 200 - 6 0.003 0.004
+2023-06-14 04:22:14,798 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:14] "POST /web/dataset/call_kw/algoritma.brand/read HTTP/1.1" 200 - 2 0.002 0.003
+2023-06-14 04:22:19,830 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:19] "POST /web/dataset/call_kw/algoritma.pembelian.line/default_get HTTP/1.1" 200 - 3 0.001 0.003
+2023-06-14 04:22:20,140 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:20] "POST /web/dataset/call_kw/algoritma.pembelian.line/onchange HTTP/1.1" 200 - 1 0.000 0.004
+2023-06-14 04:22:21,925 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:21] "POST /web/dataset/call_kw/product.product/name_search HTTP/1.1" 200 - 11 0.023 0.008
+2023-06-14 04:22:23,621 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:23] "POST /web/dataset/call_kw/algoritma.pembelian.line/onchange HTTP/1.1" 200 - 3 0.006 0.004
+2023-06-14 04:22:25,469 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:25] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.003 50.013
+2023-06-14 04:22:31,760 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:31] "POST /web/dataset/call_kw/uom.uom/name_search HTTP/1.1" 200 - 3 0.002 0.002
+2023-06-14 04:22:37,794 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:37] "POST /web/dataset/call_kw/algoritma.pembelian/create HTTP/1.1" 200 - 11 0.014 0.006
+2023-06-14 04:22:38,120 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:38] "POST /web/dataset/call_kw/algoritma.pembelian/read HTTP/1.1" 200 - 8 0.004 0.004
+2023-06-14 04:22:38,444 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:38] "POST /web/dataset/call_kw/algoritma.brand/read HTTP/1.1" 200 - 2 0.000 0.004
+2023-06-14 04:22:38,453 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:38] "POST /web/dataset/call_kw/algoritma.pembelian.line/read HTTP/1.1" 200 - 6 0.008 0.004
+2023-06-14 04:22:45,970 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:45] "POST /web/action/load HTTP/1.1" 200 - 15 0.011 0.010
+2023-06-14 04:22:46,305 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:46] "POST /web/dataset/call_kw/algoritma.brand/load_views HTTP/1.1" 200 - 15 0.011 0.006
+2023-06-14 04:22:46,633 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:46] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.000 0.003
+2023-06-14 04:22:48,348 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:22:48] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.003
+2023-06-14 04:23:15,797 19024 INFO database_odoo werkzeug: 127.0.0.1 - - [14/Jun/2023 04:23:15] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.002 50.016
