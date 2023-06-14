@@ -3,6 +3,19 @@ from odoo import models, fields, api, _
 class algoritma_pembelian(models.Model):
     _name = 'algoritma.pembelian'
 
+    # button dengan function
+    def func_to_approve(self):
+        if self.status == 'draft':
+            self.status = 'to_approve'
+    
+    def func_approved(self):
+        if self.status == 'to_approve':
+            self.status = 'approved'
+
+    def func_done(self):
+        if self.status == 'approved':
+            self.status = 'done'
+
     name = fields.Char(string="Name")
     tanggal = fields.Date(string="Tanggal")
     status = fields.Selection([('draft','Draft'),('to_approve','To Approve'),('approved','Approved'),('done','Done')], default='draft')
